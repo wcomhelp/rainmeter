@@ -1,6 +1,6 @@
 *Rainmeter* is a desktop customization tool for Windows.
 
-This repo allows for building for ARM, x86 and x64. If requested ARM64 support can be added.
+This repo allows for building for ARM, x86 and AMD64. If requested ARM64 support can be added.
 
 For build instructions, see [this](https://github.com/wcomhelp/rainmeter/blob/master/Docs/Building.md).
 
