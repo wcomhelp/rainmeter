@@ -14,6 +14,7 @@
     <!-- This is overridden by Build.bat during full build. -->
     <RmOutDirRoot Condition=" '$(Platform)' == 'Win32' ">$(SolutionDir)x32-$(Configuration)\</RmOutDirRoot>
     <RmOutDirRoot Condition=" '$(Platform)' == 'x64' ">$(SolutionDir)x64-$(Configuration)\</RmOutDirRoot>
+    <RmOutDirRoot Condition=" '$(Platform)' == 'ARM' ">$(SolutionDir)xARM-$(Configuration)\</RmOutDirRoot>
 
     <OutDir>$(RmOutDirRoot)</OutDir>
     <IntDir>$(OutDir)Obj\$(ProjectName)\</IntDir>
