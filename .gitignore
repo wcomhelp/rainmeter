@@ -5,6 +5,7 @@ bin
 obj
 x32*
 x64*
+xARM*
 Certificate.bat
 *.exe
 *.txt
