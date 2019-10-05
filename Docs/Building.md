@@ -11,6 +11,8 @@ Alternatively, download the repository contents as a [ZIP archive](https://githu
 
 ### Building with Visual Studio (Recommended)
 
+#### Obtaining the tools
+
 Rainmeter can be built using any version of Visual Studio 2017. If you don't already have VS2017, you can download [Visual Studio Community 2017](https://visualstudio.microsoft.com/vs/older-downloads/) for free.
 
 Ensure you select the workload: "Desktop development with C++"
@@ -30,6 +32,8 @@ Ensure you select the individual components:
 "Windows 10 SDK (10.0.16299.0) for Desktop C++ [ARM and ARM64]"
 
 "Windows Universal C Runtime"
+
+#### Solving other issues with building
 
 If your build for ARM still fails, copy the files from [here](https://github.com/MakiseKurisu/WindowsRTLib/tree/master/Lib) to "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.16299.0\um\arm"
 
