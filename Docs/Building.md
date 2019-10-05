@@ -35,6 +35,8 @@ Ensure you select the individual components:
 
 #### Solving other issues with building
 
+You will also need to copy the file from [here](https://gist.github.com/wcomhelp/a5701d4374d51066866e276c9e55f37b/raw/ea3428c3807d6c64ef4e11a2c329512eafcebc93/Microsoft.Visualstudio.TestTools.CppUnitTestFramework.arm.dll) to "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow\Extensions\Cpp"
+
 If your build for ARM still fails, copy the files from [here](https://github.com/MakiseKurisu/WindowsRTLib/tree/master/Lib) to "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.16299.0\um\arm"
 
 ### Building the installer [NOT TESTED]
